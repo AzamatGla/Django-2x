@@ -3,5 +3,5 @@
 {% block content %}
 <h2>Home Page</h2>
 <h3>Welcome to my site, {% if user.is_authenticated %} {{ user.username }}!{% else %} visitor {%endif%}</h3>
-<p><strong>In our site it has been registered {{ count }} users</strong></p>
+<p><strong>Total users registered {{ count }} </strong></p>
 {% endblock %}
